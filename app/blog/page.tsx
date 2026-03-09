@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
-import { ArrowRight, Calendar, Tag } from 'lucide-react'
+import { ArrowRight, Calendar } from 'lucide-react'
 import Hero from '@/components/Hero'
 import SectionHeading from '@/components/SectionHeading'
 

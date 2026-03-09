@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { Heart, Handshake, Share2, ArrowRight, CheckCircle, Mail, Phone } from 'lucide-react'
+import { Heart, Users2, Share2, ArrowRight, CheckCircle, Mail, Phone } from 'lucide-react'
 import Hero from '@/components/Hero'
 import SectionHeading from '@/components/SectionHeading'
 
@@ -27,7 +27,7 @@ const ways = [
     ],
   },
   {
-    icon: Handshake,
+    icon: Users2,
     title: 'Partner With Us',
     color: 'bg-green-earth',
     iconBg: 'bg-green-light',

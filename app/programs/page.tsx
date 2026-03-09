@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
 import {
-  Stethoscope, ShieldCheck, Users, HandHeart, Activity,
-  BookOpen, ArrowRight, Heart, MapPin, Clock, UserCheck
+  Stethoscope, ShieldCheck, Users, HeartHandshake, Activity,
+  BookOpen, ArrowRight, Heart, MapPin, Clock, BadgeCheck
 } from 'lucide-react'
 import Hero from '@/components/Hero'
 import SectionHeading from '@/components/SectionHeading'
@@ -34,7 +34,7 @@ const services = [
       'Conducting sessions on hygiene, nutrition, maternal health, disease prevention, and healthy lifestyle practices tailored to the rural context.',
   },
   {
-    icon: HandHeart,
+    icon: HeartHandshake,
     title: 'Support for Economically Weaker Sections',
     description:
       'Identifying and supporting individuals and families from economically disadvantaged backgrounds with medical assistance, medicines, and referrals.',
@@ -75,7 +75,7 @@ const whyUs = [
     desc: 'We maintain full transparency in our operations. Every beneficiary is served with dignity and without discrimination.',
   },
   {
-    icon: UserCheck,
+    icon: BadgeCheck,
     title: 'Community-Driven Solutions',
     desc: 'We listen to community leaders and residents before designing programs, ensuring our interventions address real, felt needs.',
   },

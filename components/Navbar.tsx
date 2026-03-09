@@ -3,7 +3,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import { Menu, X, Heart, ChevronDown } from 'lucide-react'
+import { Menu, X, Heart } from 'lucide-react'
 import clsx from 'clsx'
 
 const navLinks = [

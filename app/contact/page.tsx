@@ -1,6 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
-import { Phone, MapPin, Globe, User, Mail, Send, Clock } from 'lucide-react'
+import { Phone, MapPin, Globe, User, Send, Clock } from 'lucide-react'
 import Hero from '@/components/Hero'
 import SectionHeading from '@/components/SectionHeading'
 

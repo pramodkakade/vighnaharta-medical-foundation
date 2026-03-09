@@ -2,8 +2,8 @@ import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
 import {
-  Stethoscope, ShieldCheck, Users, HandHeart, ArrowRight,
-  CheckCircle, Heart, MapPin, Clock, UserCheck, Leaf
+  Stethoscope, ShieldCheck, Users, HeartHandshake, ArrowRight,
+  CheckCircle, Heart, MapPin, Clock, Leaf
 } from 'lucide-react'
 import Hero from '@/components/Hero'
 import InfoCard from '@/components/InfoCard'
@@ -37,7 +37,7 @@ const focusAreas = [
       'Educating communities on hygiene, nutrition, maternal health, and wellness so every family can make informed health decisions.',
   },
   {
-    icon: HandHeart,
+    icon: HeartHandshake,
     title: 'Medical Support for Underprivileged',
     description:
       'Providing free and subsidized medical services to economically weaker sections who cannot afford private healthcare.',
@@ -48,7 +48,7 @@ const whyChooseUs = [
   {
     icon: Heart,
     title: 'People-Centric Healthcare',
-    desc: 'Compassion comes before everything. Every program is designed with the patients dignity and wellbeing at its centre.',
+    desc: 'Compassion comes before everything. Every program is designed with the patient's dignity and wellbeing at its centre.',
   },
   {
     icon: MapPin,
