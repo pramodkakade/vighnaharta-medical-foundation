@@ -48,7 +48,7 @@ const whyChooseUs = [
   {
     icon: Heart,
     title: 'People-Centric Healthcare',
-    desc: 'Compassion comes before everything. Every program is designed with the patient's dignity and wellbeing at its centre.',
+    desc: 'Compassion comes before everything. Every program is designed with the patients dignity and wellbeing at its centre.',
   },
   {
     icon: MapPin,

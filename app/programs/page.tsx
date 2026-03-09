@@ -57,7 +57,7 @@ const whyUs = [
   {
     icon: Heart,
     title: 'People-Centric Healthcare',
-    desc: 'Every program places the patient's dignity and wellbeing at the centre. Compassion is our operating principle.',
+    desc: 'Every program places the patients dignity and wellbeing at the centre. Compassion is our operating principle.',
   },
   {
     icon: MapPin,
